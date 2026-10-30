@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "forest-rt",
+      "runtimeExecutable": "/bin/sh",
+      "runtimeArgs": ["-c", "cd /tmp && exec python3 -m http.server 8123 -d \"$HOME/Desktop/Bench\""],
+      "port": 8123
+    }
+  ]
+}
